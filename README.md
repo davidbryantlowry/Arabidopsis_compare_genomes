@@ -14,22 +14,23 @@ Make sure that all of the programs are in the directory and have the EXACT names
 
 Files:
 
-CDSpipeline.pl						Pipeline for CDS
+CDSpipeline.pl  Pipeline for CDS
 
-UTRpipeline.pl						Pipeline for UTR
+UTRpipeline.pl  Pipeline for UTR
 
-CDS_grabber.pl						Extracts CDS from genome
+CDS_grabber.pl  Extracts CDS from genome
 
-UTR_grabber.pl						Extracts 5’ and 3’ UTR from genome
+UTR_grabber.pl  Extracts 5’ and 3’ UTR from genome
 
-CDS_combiner.pl						Concatenates CDS and reverse transcribes
+CDS_combiner.pl Concatenates CDS and reverse transcribes
 
-CDStoProtein.pl						Converts CDS to in frame protein
+CDStoProtein.pl Converts CDS to in frame protein
 
-Amino_acid_divergence.pl			Calculates AA substitutions between genomes and counts premature stop codons 
-Nucleotide_divergence.pl			Counts SNPs between genomes
+Amino_acid_divergence.pl  Calculates AA substitutions between genomes and counts premature stop codons 
 
-TAIR10_GFF3_genes_mod.gff.cr 		Modified annotation file, DO NOT USE ANOTHER
+Nucleotide_divergence.pl  Counts SNPs between genomes
+
+TAIR10_GFF3_genes_mod.gff.cr  Modified annotation file, DO NOT USE ANOTHER (email: davidbryantlowry@gmail.com for this file)
 
 Also make sure that the two genomes you want to compare are in the directory.
 Genome file names should be in the format name_genome.txt
