@@ -51,3 +51,9 @@ perl CDSpipeline.pl Italy_genome.txt sweden_genome.txt
 For UTR:
 
 perl UTRpipeline.pl Italy_genome.txt sweden_genome.txt
+
+------------------------------------------------------------------------------
+
+Special note: If you see a -1 in the Substitution or Premature_Stops column of the CDS_protein_divergence.csv
+output file it means that the stop codon present in Col-0 was not present in at least one of the accessions
+being evaluated.
